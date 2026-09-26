@@ -1,9 +1,9 @@
 // Edita aquí los enlaces reales. Mientras tanto son placeholders.
 export const links = {
-  portfolio: "YOUR_PORTFOLIO_URL",
-  github: "YOUR_GITHUB_URL",
-  discord: "YOUR_DISCORD_URL",
-  email: "YOUR_EMAIL",
+  portfolio: "https://dark-ab-portafolio.vercel.app/",
+  github: "https://github.com/Dark-AB-0",
+  discord: "https://discordapp.com/users/573673010947686410",
+  email: "alan.bartolo.b0705@gmail.com",
 };
 
 export const brand = {
