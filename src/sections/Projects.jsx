@@ -17,8 +17,7 @@ export default function Projects() {
             <Sparkles size={26} className="projects-empty-icon" aria-hidden="true" />
             <p>Projects are coming soon.</p>
             <span>
-              Esta sección se llenará conforme se completen proyectos, directamente
-              desde <code>src/data/projects.js</code>.
+              
             </span>
           </Reveal>
         ) : (
