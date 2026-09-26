@@ -1,0 +1,50 @@
+.solutions-list {
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+}
+
+.solution-row {
+  display: grid;
+  grid-template-columns: 1fr auto 1fr;
+  align-items: center;
+  gap: 1.5rem;
+  padding: 1.5rem 2rem;
+  background: var(--bg-1);
+  border: 1px solid var(--border-subtle);
+  border-radius: var(--radius-md);
+  transition: border-color 0.25s ease;
+}
+
+.solution-row:hover {
+  border-color: var(--accent-line);
+}
+
+.solution-problem {
+  font-family: var(--font-display);
+  font-weight: 600;
+  font-size: 1.05rem;
+  color: var(--text-primary);
+}
+
+.solution-arrow {
+  color: var(--accent-2);
+  flex-shrink: 0;
+}
+
+.solution-answer {
+  color: var(--text-secondary);
+  font-size: 0.95rem;
+}
+
+@media (max-width: 720px) {
+  .solution-row {
+    grid-template-columns: 1fr;
+    gap: 0.6rem;
+    text-align: left;
+  }
+
+  .solution-arrow {
+    transform: rotate(90deg);
+  }
+}

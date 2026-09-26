@@ -1,0 +1,31 @@
+.technologies {
+  padding: 3rem 0;
+  border-top: 1px solid var(--border-subtle);
+  border-bottom: 1px solid var(--border-subtle);
+}
+
+.technologies-head {
+  margin-bottom: 1.5rem;
+}
+
+.technologies-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75rem;
+}
+
+.technology-pill {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.55rem;
+  padding: 0.6rem 1.1rem;
+  border-radius: 999px;
+  background: var(--bg-1);
+  border: 1px solid var(--border-subtle);
+  font-size: 0.9rem;
+  color: var(--text-secondary);
+}
+
+.technology-pill svg {
+  color: var(--accent-2);
+}

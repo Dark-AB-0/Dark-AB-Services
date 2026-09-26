@@ -1,0 +1,43 @@
+.cta-panel {
+  position: relative;
+  overflow: hidden;
+  text-align: center;
+  padding: clamp(3.5rem, 8vw, 6rem) 2rem;
+  border-radius: 28px;
+  background: linear-gradient(160deg, var(--bg-1) 0%, var(--bg-0) 100%);
+  border: 1px solid var(--border-subtle);
+}
+
+.cta-glow {
+  top: -30%;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 600px;
+  height: 400px;
+  background: var(--accent);
+  opacity: 0.28;
+}
+
+.cta-title {
+  position: relative;
+  z-index: 1;
+  font-size: clamp(2.2rem, 5vw, 3.4rem);
+}
+
+.cta-sub {
+  position: relative;
+  z-index: 1;
+  margin-top: 0.9rem;
+  color: var(--text-secondary);
+  font-size: 1.1rem;
+}
+
+.cta-actions {
+  position: relative;
+  z-index: 1;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 1rem;
+  margin-top: 2.25rem;
+}
